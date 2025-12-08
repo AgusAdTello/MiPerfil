@@ -217,7 +217,7 @@ export default function App() {
              <a href="mailto:agus.tello5@hotmail.com" className="text-slate-400 hover:text-cyan-400 transition-colors">
                <Mail size={24} />
              </a>
-             <a href="https://linkedin.com" target="_blank" className="text-slate-400 hover:text-cyan-400 transition-colors">
+             <a href="https://www.linkedin.com/in/agustin-tello-683389b3/" target="_blank" className="text-slate-400 hover:text-cyan-400 transition-colors">
                <Linkedin size={24} />
              </a>
              <a href="https://github.com/AgusAdTello" target="_blank" className="text-slate-400 hover:text-cyan-400 transition-colors">
