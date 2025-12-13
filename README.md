@@ -17,7 +17,7 @@ El objetivo de este sitio es servir como carta de presentación para oportunidad
 
 * **Diseño Moderno:** Interfaz oscura ("Dark Mode") construida con **Tailwind CSS**.
 * **Navegación Fluida:** Scroll suave entre secciones (Inicio, Proyectos, Habilidades, Contacto).
-* **Showcase de Proyectos:** Sección destacada para mostrar aplicaciones como *CineExplorer*.
+* **Showcase de Proyectos:** Sección destacada para mostrar aplicaciones como *AgusCine*.
 * **Formulario de Contacto Funcional:** Integración con **Formspree** para recibir mensajes directamente al email sin necesidad de backend propio.
 * **Iconografía:** Uso de `lucide-react` para iconos limpios y consistentes.
 * **Totalmente Responsive:** Adaptable a móviles, tablets y escritorio.
