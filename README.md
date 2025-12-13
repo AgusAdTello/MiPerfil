@@ -50,9 +50,6 @@ Sigue estos pasos para correr el proyecto en tu computadora:
     npm run dev
     ```
 
-4.  **Abrir en el navegador:**
-    Visita `http://localhost:5173` para ver la aplicación.
-
 ## 📂 Estructura del Proyecto
 
 El código principal se encuentra en `src/App.jsx`, manteniendo una estructura simple y fácil de mantener:
