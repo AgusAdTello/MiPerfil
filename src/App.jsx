@@ -14,7 +14,7 @@ export default function App() {
       demoLink: "https://aguscine.vercel.app",
       repoLink: "https://github.com/AgusAdTello/AgusCine",
       emoji: "🎬",
-      imagen: "/aguscine.jpg" // Ruta de la imagen en public/
+      imagen: "/aguscine.png" // Ruta de la imagen en public/
     },
     {
       titulo: "Statrix",
@@ -24,7 +24,7 @@ export default function App() {
       demoLink: "https://statrixad.vercel.app",
       repoLink: "https://github.com/AgusAdTello/Statrix",
       emoji: "📊",
-      imagen: "/Statrix.jpg" // Ruta de la imagen en public/
+      imagen: "/Statrix.png" // Ruta de la imagen en public/
     },
     {
       titulo: "Zenvy Shop",
@@ -34,7 +34,7 @@ export default function App() {
       demoLink: "https://zenvy-shop.vercel.app", 
       repoLink: "https://github.com/AgusAdTello/zenvy-shop",
       emoji: "🛒",
-      imagen: "/zenvy.jpg" // Ruta de la imagen en public/
+      imagen: "/zenvy.png" // Ruta de la imagen en public/
     }
   ];
 
