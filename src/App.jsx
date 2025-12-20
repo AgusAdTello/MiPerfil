@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, ExternalLink, Code2, Database, Layout, Terminal
 export default function App() {
   const [formStatus, setFormStatus] = useState('');
 
-  // 1. Definición centralizada de tus proyectos
+  // 1. Definición centralizada de tus proyectos con imágenes incluidas
   const misProyectos = [
     {
       titulo: "CineExplorer App",
@@ -13,7 +13,8 @@ export default function App() {
       tecnologias: ["React + Vite", "Tailwind CSS", "API Integration"],
       demoLink: "https://aguscine.vercel.app",
       repoLink: "https://github.com/AgusAdTello/AgusCine",
-      emoji: "🎬"
+      emoji: "🎬",
+      imagen: "/aguscine.jpg" // Ruta de la imagen en public/
     },
     {
       titulo: "Statrix",
@@ -22,7 +23,8 @@ export default function App() {
       tecnologias: ["React.js", "Tailwind CSS", "Recharts", "LocalStorage API"],
       demoLink: "https://statrixad.vercel.app",
       repoLink: "https://github.com/AgusAdTello/Statrix",
-      emoji: "📊"
+      emoji: "📊",
+      imagen: "/Statrix.jpg" // Ruta de la imagen en public/
     },
     {
       titulo: "Zenvy Shop",
@@ -31,7 +33,8 @@ export default function App() {
       tecnologias: ["Next.js 15", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
       demoLink: "https://zenvy-shop.vercel.app", 
       repoLink: "https://github.com/AgusAdTello/zenvy-shop",
-      emoji: "🛒"
+      emoji: "🛒",
+      imagen: "/zenvy.jpg" // Ruta de la imagen en public/
     }
   ];
 
@@ -99,7 +102,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* Sección de Proyectos Actualizada */}
+      {/* Sección de Proyectos */}
       <section id="proyectos" className="py-20 px-6 bg-slate-900/50">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center gap-4 mb-12">
@@ -114,9 +117,17 @@ export default function App() {
                 <div className="relative bg-slate-950 border border-slate-800 rounded-2xl p-6 md:p-10 flex flex-col md:flex-row gap-8 items-center">
                   <div className="md:w-1/2 w-full">
                     <div className="aspect-video bg-slate-900 rounded-lg overflow-hidden border border-slate-800 group-hover:border-cyan-500/30 transition-all relative">
-                       <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-slate-800 to-slate-900">
+                      {proy.imagen ? (
+                        <img 
+                          src={proy.imagen} 
+                          alt={proy.titulo} 
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-slate-800 to-slate-900">
                           <span className="text-5xl">{proy.emoji}</span>
-                       </div>
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className="md:w-1/2 w-full">
