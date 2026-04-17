@@ -36,7 +36,7 @@ export default function App() {
       tipo: "Web Scraping & UI",
       descripcion: "Plataforma dinámica que utiliza herramientas de extracción de datos para gestionar información en tiempo real con una interfaz fluida.",
       tecnologias: ["React 19", "Tailwind 4", "Cheerio", "Axios"],
-      demoLink: "#",
+      demoLink: "https://epyka.vercel.app/",
       repoLink: "https://github.com/AgusAdTello/EPYKA",
       emoji: "⚡",
       imagen: "/epyka-hero.png"
@@ -66,7 +66,7 @@ export default function App() {
       tipo: "Promotional Website",
       descripcion: "Sitio web promocional para un negocio de mermeladas y conservas artesanales. Enfocado en la estética visual y la presentación de productos tradicionales.",
       tecnologias: ["React", "Tailwind CSS", "Framer Motion"],
-      demoLink: "#",
+      demoLink: "https://mis-sabores.vercel.app/",
       repoLink: "https://github.com/AgusAdTello/mis-sabores",
       emoji: "🍯",
       imagen: "/missabores.png"
